@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pandas
+sentence-transformers
+faiss-cpu
+python-multipart
+transformers>=4.30.0   # optional, used only if you want generation locally
+torch                 # required by many HF models (install matching CUDA if you have GPU)
